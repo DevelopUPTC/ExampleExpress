@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./templates/header')%>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h1>Nuevo Registro</h1>
+        </div>
+        <div class="card-body">
+            <form action="/" method="post">
+                id <input type="text" id="idDish" name="idDish"><br>
+                Nombre <input type="text" id="name" name="name"><br>
+                Valor <input type="text" id="value" name="value"><br>
+                Vegetarian  Si <input type="radio" name="vegetarian" value="S">
+                        No <input type="radio" name="vegetarian" value="N" checked><p></p>
+                    
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+            </form>
+
+
+        </div>
+    </div>
+  </div>
+</body>
+</html>
